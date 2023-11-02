@@ -1,0 +1,16 @@
+.container{
+    background-color: orange;
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    /* grid-template-columns: repeat(3, 1fr); */
+}
+
+.el{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+    border: 2px solid black;
+    font-size: 30px;
+}

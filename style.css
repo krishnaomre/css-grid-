@@ -1,0 +1,46 @@
+.container{
+
+}
+.container{
+    background-color: white;
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px 100px;
+
+}
+
+.el{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 70px;
+    height: 70px; */
+    background-color: yellow;
+    border: 2px solid black;
+    font-size: 30px;
+}
+
+.el-1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+.el-2{
+    grid-column: 4/6;
+    grid-row: 1/2;
+}
+
+.el-3{
+    grid-column: 4/5;
+    grid-row: 2/4;
+}
+.el-4{
+    grid-column: 5/6;
+    grid-row: 2/4;
+}
+.el-5{
+    grid-column: 1/6;
+    grid-row: 4/5;
+}
